@@ -1,13 +1,171 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+* { 
+    box-sizing: border-box
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+ p {
+     /* background-color: aqua; */
+     font-family: 'Original Surfer', cursive;
+
+    color: black;
+   margin-top: 10px ;
+  margin-bottom: 10px;
+} 
+
+.btn-blue {
+    background-color: #1d9d8f;
+    /* padding: 0.5rem; */
+    border-radius: 5rem;
 }
+
+.navbar-brand .newFont {
+    font-family: 'Original Surfer', cursive;
+    font-size: 1.5rem;
+}
+
+.font-a {
+    font-size: 1.5rem;
+}
+
+.Travelx {
+    /* new font copied from google font  */
+    font-family: 'Redressed', cursive;
+}
+
+.logoBlue {
+    color: rgb(37, 179, 204);
+}
+
+.logoBlue-1 {
+    color: black
+}
+
+.newImage {
+    height: 30rem;
+    width: 30rem
+}
+
+.btn-1 {
+    background-color: #1d9d8f;
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 20px;
+}
+
+.search1 {
+    font-weight: bold;
+    padding: 0.8rem;
+    border-radius: 20px;
+}
+
+.btn-2 {
+    color: #1d9d8f;
+    padding: 0.1rem;
+}
+
+.btn-2:hover {
+    color: white;
+    padding: 0.1rem;
+}
+
+
+.text-area {
+    color: seashell;
+    /* background-image: url("plane.jpg"); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-hero {
+    color: seashell;
+    /* background-image: url("star.jpg"); */
+    background-repeat: no-repeat;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.read-btn {
+    border-radius: 20px;
+
+}
+
+
+.text-area:after {
+
+    opacity: 0.1;
+
+
+    /* To make background image as transpert we will give rgb000 and A as Alpha as 0.5 */
+
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.imageClass1 {
+    background-repeat: no-repeat;
+    height: 10px;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.c-1 {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    top:50%; left: 0;right: 0;
+    color: seashell;
+
+}
+
+.overlay-c {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 30vh;
+    position: absolute;
+    top: 0;
+}
+
+
+.input{
+    height: 3.5rem;
+    width: 50vw;
+    border: 3px solid rgb(37, 179, 204);
+    border-radius: 20px;
+    margin-bottom: 1.3rem;
+}
+
+ footer{
+     background-color: rgba(0, 0, 0, 1);
+     color: seashell;
+     font-family: 'Original Surfer', cursive;
+     padding-top: 5px ;
+     padding-bottom: 5px ;
+
+    }
+
+
+    @media(max-width:600px)
+    {
+        .img-n{
+            display: none;
+        }
+    }
+
+
+
+
+
